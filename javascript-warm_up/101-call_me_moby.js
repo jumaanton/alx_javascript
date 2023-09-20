@@ -1,6 +1,6 @@
 #!/usr/bin/node
-function callMeMoby(n, func) {
+function callMeMoby(x, theFuction) {
 	for (let i = 0; i < n; i++) {
-		func();
+		theFuction();
 	}
 }
