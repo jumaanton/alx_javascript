@@ -16,7 +16,7 @@ request.get(apiUrl, (error, response, body) => {
     
     // Check if the movie data is valid
     if (movieData.title) {
-      console.log('Title:', movieData.title); // Print the movie title
+      console.log(movieData.title); // Print the movie title
     } else {
       console.log('Movie not found.'); // Print a message if the movie data is not found
     }
